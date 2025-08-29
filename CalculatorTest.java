@@ -21,6 +21,6 @@ public class CalculatorTest {
 
     @Test
     public void testDivision() {
-        assertEquals(2, calc.division(10, 5));
+        assertEquals(2, calc.divide(10, 5)); // corrected method name
     }
 }
